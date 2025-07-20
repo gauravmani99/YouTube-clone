@@ -1,0 +1,325 @@
+/* .fixed{
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position:sticky;
+}
+.leftnavi{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: sticky;
+}
+.rightvideo{
+    position:static;
+    overflow-y:scroll; 
+}*/
+.logo{
+    height: 40px;
+    width: 70%;
+     float: right;
+     margin-right: 5%;
+     background-image: url("../images/yutublogo.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     /* border: 1px solid; */
+}
+.mid{
+    height:47px;
+    width: 100%;
+    border-radius:25px;
+    border: 1px solid rgb(167, 167, 167);
+}
+.inpt{
+    height: 45px;
+    width: 91%;
+    float: left;
+    border-right: 1px solid rgb(167, 167, 167);
+   
+}
+.inpt input{
+    height: 45px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+}
+.search{
+    height: 46px;
+    width: 9%;
+    border-radius: 0 25px 25px 0;
+    font-size: 20px;
+    float: left;
+    background-color: rgb(247,247,247);
+    /* border: 1px solid gray; */
+}
+
+.mic{
+    width: 15%;
+    height: 45px;
+    font-size: 24px;
+    border-radius: 50%;
+    border: 1px solid rgb(224, 224, 224);
+    background-color: rgb(242,242,242);
+    float: left;
+}
+.sign{
+    width: 85%;
+    height: 50px;
+    /* border: 1px solid; */
+    float: left;
+}
+.s1{
+    
+    float:left;
+    width: 55%;
+}
+.s2{
+    height: 40px;
+    width: 40%;
+    color: rgb(6,95,212);
+    padding-top: 3px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: #fff;
+    border:1px solid rgb(201, 201, 201);
+    float: left;
+}
+.t1{
+   height: 35px;
+   width: 5%;
+   float: left;
+   text-align: center;
+   padding-top: 4px;
+   border-radius: 10px;
+   font-weight:bolder;
+   background-color: rgb(242,242,242);
+   margin-left: 90px;
+   /* border: 1px solid; */
+}
+.t2{
+    height: 35px;
+   width: 7%;
+    float: left;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 10px;
+    font-weight:bolder;
+    background-color: rgb(242,242,242);
+    margin-left: 8px;
+    /* border: 1px solid; */
+}
+.t3{
+    height: 35px;
+   width: 7%;
+    float: left;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 10px;
+    font-weight:bolder;
+    background-color: rgb(242,242,242);
+    margin-left: 8px;
+    /* border: 1px solid; */
+}
+.t4{
+    height: 35px;
+   width: 7%;
+    float: left;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 10px;
+    font-weight:bolder;
+    background-color: rgb(242,242,242);
+    margin-left: 8px;
+    /* border: 1px solid; */
+}
+.t5{
+    height: 35px;
+   width: 13%;
+   border-radius:10px;
+   text-align:center;
+   font-weight:bolder;
+   padding-top:4px;
+   background-color:rgb(242,242,242);
+   margin-left: 8px;
+   /* border: 1px solid; */
+    float: left;
+}
+.t6{
+    height: 35px;
+   width: 12%;
+   border-radius:10px;
+   text-align:center;
+   font-weight:bolder;
+   padding-top:4px;
+   background-color:rgb(242,242,242);
+   margin-left: 8px;
+   /* border: 1px solid; */
+    float: left;
+}
+.t7{
+    height: 35px;
+   width: 11%;
+   margin-left:8px;
+   border-radius:10px;
+   text-align:center;
+   font-weight:bolder;
+   padding-top:4px;
+   background-color:rgb(242,242,242);
+   /* border: 1px solid; */
+    float: left;
+}
+.t8{
+    height: 35px;
+   width: 7%;
+   margin-left:8px;
+   border-radius:10px;
+   font-weight:bolder;
+   text-align:center;
+   padding-top:4px;
+   background-color:rgb(242,242,242);
+   /* border: 1px solid; */
+    float: left;
+}
+.t9{
+    height: 35px;
+   width: 7%;
+   margin-left:8px;
+   border-radius:10px;
+   text-align:center;
+   padding-top:4px;
+   font-weight:bolder;
+   /* border: 1px solid; */
+   background-color:rgb(242,242,242);
+    float: left;
+}
+.t10{
+    height: 35px;
+   width: 7%;
+   margin-left:8px;
+   padding-top: 4px;
+   font-weight:bolder;
+   background-color:rgb(242,242,242);
+   text-align: center;
+   border-radius: 10px;
+   /* border: 1px solid; */
+    float: left;
+}
+.t11{
+    height: 23px;
+   width: 2%;
+   margin-top: 5px;
+   background-image: url("../images/change.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-left:8px;
+   /* border: 1px solid; */
+    float: left;
+}
+.youtube{
+    margin-left: 15px;
+}
+.youtube video{
+    top: 0; 
+    border-radius: 8px;
+    margin-top: 5px;
+}
+.youtube video:hover{
+    border-radius:0%;
+}
+.vid1{
+    float: left;
+     height: 40px;
+     width: 15%; 
+     /* border: 1px solid;  */
+     background-image: url("../images/1.jpg.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+.vid2{
+    float: left;
+     height: 40px;
+     width: 15%; 
+     /* border: 1px solid;  */
+     background-image: url("../images/2.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+.vid3{
+    float: left;
+     height: 40px;
+     width: 15%; 
+     /* border: 1px solid;  */
+     background-image: url("../images/3.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+.first{
+  /* border: 1px solid red; */
+}
+.home{
+    height: 60px;
+    width: 90%;
+    padding-top: 7px;
+    text-align: center;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    margin: 5% 0 30% 4%;
+}
+.home:hover{
+    background-color:rgb(219, 218, 218);
+    cursor: pointer;
+}
+.short{
+    height: 60px;
+    width: 90%;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    margin: 5% 0 30% 4%;
+}
+.short:hover{
+    background-color:rgb(219, 218, 218);
+    cursor: pointer;
+}
+.subscriptions{
+    height: 60px;
+    width: 95%;
+    padding-top: 7px;
+    font-size: 14px;
+    text-align: center; 
+    border-radius: 5px;
+    margin: 5% 0 30% 4%;
+}
+.subscriptions:hover{
+    background-color:rgb(219, 218, 218);
+    cursor: pointer;
+}
+.You{
+    height: 60px;
+    width: 90%;
+    padding-top: 7px;
+    text-align: center;
+    margin: 5% 0 30% 4%;
+    border-radius: 5px;
+}
+.You:hover{
+    background-color:rgb(219, 218, 218);
+    cursor: pointer;
+}
+.history{
+    height: 60px;
+    width: 90%;
+    text-align: center;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    margin: 5% 0 2% 4%;
+}
+.history:hover{
+    background-color:rgb(219, 218, 218);
+    cursor: pointer;
+}
